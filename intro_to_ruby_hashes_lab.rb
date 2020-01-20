@@ -39,3 +39,7 @@ def update_counting_hash(hash, key)
     puts hash[key]
   end
 end
+
+
+update_counting_hash({count: 5}, :count)
+update_counting_hash({}, :apple)
